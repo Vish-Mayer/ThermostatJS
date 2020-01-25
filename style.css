@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 4;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#left {
+  float: left;
+  height: 100%;
+  width: 50%;
+  font-size: 150px;
+}
+
+#temp-header {
+  font-size: 300px;
+  padding: 100px 0 0 0;
+}
+
+#buttons {
+  font-family: sans-serif;
+  color: black; 
+}
+
+#Up{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#Up:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#Down{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#Down:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#Reset{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#Reset:active {
+  background-color: #3e8e45;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#PSmode {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#PSmode {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+ 
