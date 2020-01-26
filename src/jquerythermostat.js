@@ -33,8 +33,13 @@ $('#PSmode').click(function() {
   }
 })
 
-  $.get('http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1bbff88fcd12ae61f63bcef0d5a23b92&units=metric', function(data) {
+$('#current-city').change(function() {
+  var city = $('#current-city').val()
+  $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=1bbff88fcd12ae61f63bcef0d5a23b92&units=metric', function(data) {
    $('#Outside').text(data.main.temp)
+  
+
+  })
 })
 
 

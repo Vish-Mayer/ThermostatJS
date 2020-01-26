@@ -13,7 +13,7 @@
 
 <div id="left">
   <div id="temp-header">
-    <span id="temp">Temperature </span>°c
+    <span id="temp">Temperature</span>°c
   </div>
 
   
@@ -25,9 +25,22 @@
     </div>
     </div>
 
-    <h1>Outside Temperature <span id= "Outside"></span>°C</h1>
-    <script src="src/jquerythermostat.js"> </script>
+    <div id="weather">
+      
+    <h1>Current Temperature <span id= "Outside">-</span>°c</h1>
+    <select id="current-city">
+      <option>--choose location--</option>
+      <option value="london">London</option>
+      <option value="new+york">New York</option>
+      <option value="paris">Paris</option>
+      <option value="tokyo">Tokyo</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="dubai">Dubai</option>
+      <option value="hong+kong">Hong Kong</option>
+    </select>
+    </div>
 
+    <script src="src/jquerythermostat.js"> </script>
 
 </body>
 
