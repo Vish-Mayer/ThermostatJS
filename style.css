@@ -4,12 +4,25 @@
   box-sizing: border-box;
 }
 
+
 body {
   height: 100vh;
   background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
   font-family: sans-serif;
   color: white;
   text-align: center;
+}
+
+.low-usage {
+  color: #39ff14;
+}
+
+.medium-usage {
+  color: white;
+}
+
+.high-usage {
+  color: #ff4500;
 }
 
 #left {
@@ -86,24 +99,25 @@ body {
   transform: translateY(4px);
 }
 
-#PSmode {
+#PSmode{
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: white;
+  color: #39ff14;
   background-color: purple;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-#PSmode {
-  background-color: purple;
+#PSmode:active {
+  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 
 
 

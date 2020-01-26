@@ -44,17 +44,17 @@ describe('Thermostat', function() {
 
   it('checks if the usage is "Low" if current temperature', function() {
     thermostat.currentTemperature = 15
-    expect(thermostat.currentEnergyUsage()).toEqual('Low usage')
+    expect(thermostat.currentEnergyUsage()).toEqual('low-usage')
   })
 
   it('checks if the usage is "Medium" if current temperature', function() {
     thermostat.currentTemperature = 20
-    expect(thermostat.currentEnergyUsage()).toEqual('Medium usage')
+    expect(thermostat.currentEnergyUsage()).toEqual('medium-usage')
   })
 
   it('checks if the usage is "High" if current temperature', function() {
     thermostat.currentTemperature = 26
-    expect(thermostat.currentEnergyUsage()).toEqual('High usage')
+    expect(thermostat.currentEnergyUsage()).toEqual('high-usage')
   })
 
 })
